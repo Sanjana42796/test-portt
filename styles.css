@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section */
+#hero {
+    background: #013b75;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color:rgb(168, 11, 168);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    background-color: rgb(106, 136, 176);
+}
+
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.mypic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.resume{
+ font-size:xx-large;
+ background-color: rgb(9, 217, 249);
+}
+h1{
+    background-color: rgb(169, 7, 7);
+}
+
+#resume{
+    background-color: bisque;
+}
+#projects{
+    background-color: rgb(236, 201, 158);
+}
+#about{
+    background-color: bisque;
+}
+#contact{
+    background-color:rgb(236, 201, 158); 
+}
+.blue-button {
+    background-color: #007BFF; 
+    color: white;              
+    padding: 10px 20px;      
+    border: none;               
+    border-radius: 5px;      
+    cursor: pointer;           
+    font-size: 16px;            
+}
